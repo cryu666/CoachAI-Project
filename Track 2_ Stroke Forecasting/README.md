@@ -26,10 +26,10 @@ $$
 
 ## :badminton:	Main Approach: ShuttleNet
 ### Overview
-ShuttleNet is a deep learning model that can be applied to stroke forecasting in badminton. It typically consists of two encoder-decoder extractors for modeling rally progress and retrieving player styles from turn-based sequence and a fusion network to take into account the dependencies between rally progress and player styles at each stroke.
+
+ShuttleNet is a deep learning model that can be applied to stroke forecasting in badminton. It typically consists of two encoder-decoder extractors for modeling rally progress and retrieving player styles from turn-based sequence and a fusion network to take into account the dependencies between rally progress and player styles at each stroke.  
+  
 Please refer to the [paper](https://ojs.aaai.org/index.php/AAAI/article/view/20341) for more details.
-Here we adapt ShuttleNet to our newly collected dataset as the official baseline in the CoachAI Badminton Challenge.
-All hyper-parameters are set as the same in the paper.
 
 ### Code Usage
 #### Train a model
